@@ -3,7 +3,7 @@
   src: url(font/EduAUVICWANTHand-VariableFont_wght.ttf);
 }
 body{
-    background-color: rgb(242, 239, 239);
+    background-color: hsl(0, 20%, 84%);
     font-size: 1.2rem;
     text-transform: capitalize;
 
