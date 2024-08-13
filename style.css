@@ -1,0 +1,151 @@
+@font-face {
+  font-family: myfont;
+  src: url(font/EduAUVICWANTHand-VariableFont_wght.ttf);
+}
+body{
+    background-color: rgb(242, 239, 239);
+    font-size: 1.2rem;
+    text-transform: capitalize;
+
+  }
+video{
+  margin: 10px;
+}
+p{
+  font-family: myfont;
+  text-transform: none;
+  line-height: 1.9em;
+  word-spacing: 5px;
+}
+h1{
+    text-align: center;
+    color: #eb183b;
+    text-shadow: 5px 2px 3px black;
+    letter-spacing: 0.4em;
+}
+h1:first-letter{
+  font-size: 200%;
+}
+h3{
+  font-size: 2.4em;
+  color: #eb183b;
+  line-height: 2.5em;
+  letter-spacing: 0.2em;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #eb183b;
+    color: white;
+  }
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 400px;
+    font-size: 2em;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 250px;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 20px;
+    text-align: center;
+    background-color: hsl(60, 90%, 80%);
+    color: rgb(248, 36, 36);
+    font-size: 2em;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 550px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
